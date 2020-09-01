@@ -2,8 +2,10 @@
 
 Docker image for building a site with hugo
 
-# This file is a template, and might need editing before it works on your project.
-# Full project: https://gitlab.com/pages/hugo
+
+.gitlab-ci.yml
+
+```
 image: dettmering/hugo-build
 
 variables:
@@ -17,3 +19,4 @@ pages:
     - public
   only:
   - master
+```
